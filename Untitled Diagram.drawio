@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AQgOYuS1NMgQO8hikKiA" name="Page-2">
-    <mxGraphModel dx="1716" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,7 +195,7 @@
             <mxPoint x="90" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6O4OJz3jVe7m3iPST7hl-36" value="AcceptsDiscount" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6O4OJz3jVe7m3iPST7hl-34">
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-36" value="AppliesCode" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6O4OJz3jVe7m3iPST7hl-34">
           <mxGeometry x="5" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6O4OJz3jVe7m3iPST7hl-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERoneToMany;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-36" target="6O4OJz3jVe7m3iPST7hl-4">
