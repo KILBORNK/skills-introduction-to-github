@@ -1,107 +1,825 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.14">
-  <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
-    <mxGraphModel dx="1408" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" scale="1" border="0" version="26.0.15" pages="2">
+  <diagram id="AQgOYuS1NMgQO8hikKiA" name="Page-2">
+    <mxGraphModel dx="2133" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0" style=";html=1;" />
-        <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;req&lt;/b&gt;&amp;nbsp;[package] HSUVRequirements[HSUV Specification]&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=12;align=center;labelX=327.64;" parent="1" vertex="1">
-          <mxGeometry x="317" y="295" width="1120" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-2" value="HSUVSpecification" style="shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;strokeWidth=1;html=1;whiteSpace=wrap;align=center;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="437" y="355" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-3" value="&lt;b&gt;RefinedBy&lt;/b&gt;&lt;div&gt;&amp;lt;&amp;lt;&amp;gt;useCase&amp;gt; HSUVUseCases : Accelerate&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="867" y="365" width="300" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;endArrow=circlePlus;endFill=0;" parent="1" source="1672d66443f91eb5-4" target="1672d66443f91eb5-2" edge="1">
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;startArrow=ERmany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="6O4OJz3jVe7m3iPST7hl-3" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-3" value="Customer" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="615" width="122.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-7" value="Full Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="122.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-16" value="Email Address" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="232.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-17" value="Zip Code" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="342.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="6O4OJz3jVe7m3iPST7hl-7" target="6O4OJz3jVe7m3iPST7hl-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.5" y="710" as="sourcePoint" />
+            <mxPoint x="782.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="6O4OJz3jVe7m3iPST7hl-16" target="6O4OJz3jVe7m3iPST7hl-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.5" y="720" as="sourcePoint" />
+            <mxPoint x="277.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="6O4OJz3jVe7m3iPST7hl-17" target="6O4OJz3jVe7m3iPST7hl-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302.5" y="720" as="sourcePoint" />
+            <mxPoint x="302.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-23" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="6O4OJz3jVe7m3iPST7hl-21" target="6O4OJz3jVe7m3iPST7hl-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="467.5" y="640" as="sourcePoint" />
+            <mxPoint x="670" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-34" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="630" y="400" width="365" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-4" value="&lt;font style=&quot;color: rgb(212, 196, 74);&quot;&gt;Product Order&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="12.5" y="215" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-5" value="Product" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="10" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-6" value="Includes" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="5" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-4" target="6O4OJz3jVe7m3iPST7hl-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="239.5" as="sourcePoint" />
+            <mxPoint x="265" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-29" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-6" target="6O4OJz3jVe7m3iPST7hl-5" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="85" y="450" as="sourcePoint" />
+            <mxPoint x="185" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-30" value="Product Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#0000FF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="15" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-31" value="MSRP" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#0000FF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="125" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-35" y="560" as="sourcePoint" />
+            <mxPoint x="65" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="560" as="sourcePoint" />
+            <mxPoint x="90" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="6O4OJz3jVe7m3iPST7hl-30" target="6O4OJz3jVe7m3iPST7hl-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-22" value="&lt;u&gt;Order ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="160" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="GfVGuwTjCAqQGrBbgq1C-22" target="6O4OJz3jVe7m3iPST7hl-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-213" y="100" as="sourcePoint" />
+            <mxPoint x="120" y="103" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-64" value="Quantity of Products" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" vertex="1">
+          <mxGeometry x="162" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6O4OJz3jVe7m3iPST7hl-34" source="GfVGuwTjCAqQGrBbgq1C-64" target="6O4OJz3jVe7m3iPST7hl-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-211" y="150" as="sourcePoint" />
+            <mxPoint x="120" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-35" value="" style="fontSize=12;html=1;endArrow=none;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" target="6O4OJz3jVe7m3iPST7hl-21" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="467.5" y="640" as="sourcePoint" />
+            <mxPoint x="722.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-21" value="Places" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="447.5" y="600" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-37" value="CustomersSelected" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="280" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-40" value="&lt;u&gt;Promo Code&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERzeroToOne;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-37" target="6O4OJz3jVe7m3iPST7hl-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="204.58" as="sourcePoint" />
+            <mxPoint x="680" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToOne;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-36" target="6O4OJz3jVe7m3iPST7hl-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-47" value="d" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="680" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" parent="1" source="6O4OJz3jVe7m3iPST7hl-47" target="6O4OJz3jVe7m3iPST7hl-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="120" as="sourcePoint" />
+            <mxPoint x="694.58" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-49" value="Individual &lt;br&gt;Promo Code" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="560" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-50" value="Standard &lt;br&gt;Promo Code" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="720" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-52" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="180" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-54" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-51" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6O4OJz3jVe7m3iPST7hl-54" source="6O4OJz3jVe7m3iPST7hl-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-75" y="105" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
             <Array as="points">
-              <mxPoint x="477" y="485" />
-              <mxPoint x="517" y="485" />
+              <mxPoint />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-4" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Eco-Friendliness&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="397" y="535" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=circlePlus;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" source="1672d66443f91eb5-5" target="1672d66443f91eb5-2" edge="1">
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6O4OJz3jVe7m3iPST7hl-54" source="6O4OJz3jVe7m3iPST7hl-49" target="6O4OJz3jVe7m3iPST7hl-47" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="30.000000000000014" as="sourcePoint" />
+            <mxPoint x="195" y="30.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-58" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="660" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-59" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="50" as="sourcePoint" />
+            <mxPoint x="740" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="717" y="485" />
-              <mxPoint x="517" y="485" />
+              <mxPoint x="740" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-5" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Performance&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="637" y="535" width="160" height="70" as="geometry" />
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-47" target="6O4OJz3jVe7m3iPST7hl-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="120.00000000000001" as="sourcePoint" />
+            <mxPoint x="855" y="120.42" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-21" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" source="1672d66443f91eb5-6" target="1672d66443f91eb5-9" edge="1">
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-62" target="6O4OJz3jVe7m3iPST7hl-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-63" value="Promotion Description" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="830" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-40" target="6O4OJz3jVe7m3iPST7hl-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="220" as="sourcePoint" />
+            <mxPoint x="830" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-66" value="Promotion Type" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="825" y="125" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-62" value="Expiration Date" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" parent="1" vertex="1">
+          <mxGeometry x="825" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-40" target="6O4OJz3jVe7m3iPST7hl-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="184.31" as="sourcePoint" />
+            <mxPoint x="840" y="184.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;startArrow=ERzeroToMany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" target="6O4OJz3jVe7m3iPST7hl-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-17.5" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-71" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-72" target="6O4OJz3jVe7m3iPST7hl-3" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="12.5" y="640" as="sourcePoint" />
+            <mxPoint x="222.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-72" value="ChosetoOpt" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;" parent="1" source="6O4OJz3jVe7m3iPST7hl-85" target="6O4OJz3jVe7m3iPST7hl-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-85" value="Marketing Email Campaigns" style="whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-6" value="Order Date" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="462.5" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-8" value="&lt;u&gt;Product ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-8" target="6O4OJz3jVe7m3iPST7hl-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; white-space-collapse: preserve; font-size: medium; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Instructions - Draw a well-formed ER diagram for the following situation: &lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;An online retailer wants to keep better records of their email marketing campaigns, promo codes (for discounts) sent to customers, the products that were purchased, and whether promo codes were applied to orders. In general, the database must track data relating to customers, emails, promo codes, orders, and products. Design an ERD that incorporates the following requirements:&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- For each product we sell, we need to &lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;record the product name and MSRP&lt;/font&gt; (suggested retail price). This database will not serve as an inventory management system, so there is no need to figure out how to keep track of whether the products are currently in stock. You can think of products in this database as just a catalog of possible products customers can purchase.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- For customers, we need to collect their&lt;font style=&quot;color: rgb(255, 51, 153);&quot;&gt; full name, zip code, email address,&lt;/font&gt; and whether they have &lt;font style=&quot;color: rgb(255, 51, 153);&quot;&gt;opted out of marketing email campaigns.&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- The company often sends the &lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt;same email message to many customers&lt;/font&gt; at one time. The text of these emails must be stored in the database in case the same email text will be reused or&lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt; resent to a different population of users at a later date.&lt;/font&gt; As such, each email message sent to customers must be &lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt;given a unique ID and record the full text &lt;/font&gt;included in that email.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- When an email message is sent out, we need to record &lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;which customers were sent that particular email message.&lt;/font&gt; The&lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt; date/time for sending the email&lt;/font&gt; to a customer must be recorded in the database.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Promo codes are ways of giving customers various types of discounts ($10 off entire order, 10% off a single item, etc.) In some cases, the company generates &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;unique promo codes&lt;/font&gt; that would be sent to &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;individual customers&lt;/font&gt; but in other cases, a &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;standard promo code&lt;/font&gt; is provided to&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt; many customers at once.&lt;/font&gt; As such, for each promo code that is generated, we need to store the actual promo code (which can &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;serve as the unique identifier,&lt;/font&gt; since each code will be unique), a &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;description &lt;/font&gt;of the promotion, its &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;type&lt;/font&gt; (percent discount vs. dollar amount discount), and an&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt; &lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; font-family: Arial, sans-serif; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;expiration date.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;Promo codes are inserted into emails&lt;/font&gt; &lt;/font&gt;that are &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;sent to customers.&lt;/font&gt; In some cases, all customers who receive a marketing email will receive the same exact promo code. But in other cases, different promo codes may be provided to different customers, even if the text of the email is the same. An email to a customer will &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;never contain more than one promo code&lt;/font&gt;, but some emails sent to customers will contain &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;no promo code at all.&lt;/font&gt; (hint, the promo code is not included in the text of the email message that is stored in the database. Promo codes must be linked to other areas of the database&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt; through a relationship)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Customers can&lt;font style=&quot;color: rgb(204, 102, 0);&quot;&gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;place orders&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 102, 0);&quot;&gt; &lt;/font&gt;and we must record the &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;order date and the total amount paid &lt;/font&gt;for the order (sum of all prices charged for products plus tax and shipping fees). An order can simply be&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt; one product,&lt;/font&gt; but customers can also &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;purchase multiple products at one time&lt;/font&gt; and they are all combined into a single order.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- When a customer buys a product as part of an order, we need the ability to record the&lt;font style=&quot;color: rgb(212, 196, 74);&quot;&gt; &lt;font style=&quot;color: rgb(214, 201, 54);&quot;&gt;actual amount charged to the customer for that product.&lt;/font&gt;&lt;font style=&quot;color: rgb(153, 153, 0);&quot;&gt; &lt;/font&gt;&lt;/font&gt;This may be different from the MSRP because of a sale or the use of a promo code.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- A customer can apply no more than one promo code to an order, but does not need to use a promo code to make an order. Recording the promo code used for an order would allow the company to run analytics on the types and volume of products purchased when using different types of promo codes.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1020" width="730" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-24" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Total Amount Paid for Order&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="320" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-32" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;" parent="1" target="GfVGuwTjCAqQGrBbgq1C-43" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="550" y="435" as="sourcePoint" />
+            <mxPoint x="620" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-34" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" target="GfVGuwTjCAqQGrBbgq1C-33" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="sourcePoint" />
+            <mxPoint x="643" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-33" value="Final Shipment/Invoice" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-36" value="Applies" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-39" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-40" target="GfVGuwTjCAqQGrBbgq1C-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="915" y="580" as="sourcePoint" />
+            <mxPoint x="480" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-3" target="GfVGuwTjCAqQGrBbgq1C-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="615" as="sourcePoint" />
+            <mxPoint x="545" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-40" value="IsSent" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="405" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-43" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="630" y="400" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-44" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Order Invoice&lt;/font&gt;" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="GfVGuwTjCAqQGrBbgq1C-43" vertex="1">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="GfVGuwTjCAqQGrBbgq1C-43" source="GfVGuwTjCAqQGrBbgq1C-46" target="GfVGuwTjCAqQGrBbgq1C-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.99999999998454" y="7.5" as="sourcePoint" />
+            <mxPoint x="140" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-46" value="Sum of all Products" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="GfVGuwTjCAqQGrBbgq1C-43" vertex="1">
+          <mxGeometry x="200" y="10" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-50" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;startFill=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-44" target="6O4OJz3jVe7m3iPST7hl-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="600" as="sourcePoint" />
+            <mxPoint x="760" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERzeroToMany;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-44" target="GfVGuwTjCAqQGrBbgq1C-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="400" as="sourcePoint" />
+            <mxPoint x="730" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-33" target="GfVGuwTjCAqQGrBbgq1C-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="370" as="sourcePoint" />
+            <mxPoint x="535" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-56" target="GfVGuwTjCAqQGrBbgq1C-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.9999999999845" y="347.5" as="sourcePoint" />
+            <mxPoint x="760" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-56" value="Price After Discount&amp;nbsp;&lt;br&gt;(o)&lt;br&gt;Subtotal" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-57" value="Taxes + Shipping Fees" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="470" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-57" target="GfVGuwTjCAqQGrBbgq1C-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="385" as="sourcePoint" />
+            <mxPoint x="770" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-11" value="Targeted Marketing Roster" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" parent="1" vertex="1">
+          <mxGeometry x="-116.5" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-2" value="Emails" style="whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" parent="1" vertex="1">
+          <mxGeometry x="-296.5" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmany;" parent="1" source="6O4OJz3jVe7m3iPST7hl-2" target="6O4OJz3jVe7m3iPST7hl-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-256.91999999999996" y="240" as="sourcePoint" />
+            <mxPoint x="-256.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-297.5" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-9" value="Text Templates" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" parent="1" vertex="1">
+          <mxGeometry x="-467.5" y="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-10" value="Email Unique ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" parent="1" vertex="1">
+          <mxGeometry x="-467.5" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-10" target="6O4OJz3jVe7m3iPST7hl-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-357.5" y="250" as="sourcePoint" />
+            <mxPoint x="-297.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;" parent="1" source="6O4OJz3jVe7m3iPST7hl-11" target="GfVGuwTjCAqQGrBbgq1C-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-46.5" y="240" as="sourcePoint" />
+            <mxPoint x="-47.5" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-2" value="IsSent" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#6600CC;" parent="1" vertex="1">
+          <mxGeometry x="-96" y="270" width="99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-8" value="&lt;u&gt;Date/Tim&lt;/u&gt;e Sent" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#6600CC;" parent="1" vertex="1">
+          <mxGeometry x="-217.5" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-8" target="GfVGuwTjCAqQGrBbgq1C-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1672d66443f91eb5-6" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Power&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1107" y="535" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=circlePlus;endFill=0;jettySize=auto;orthogonalLoop=1;entryX=0.25;entryY=1;" parent="1" source="1672d66443f91eb5-7" target="1672d66443f91eb5-5" edge="1">
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6O4OJz3jVe7m3iPST7hl-11" target="6O4OJz3jVe7m3iPST7hl-37" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2.5" y="209.58" as="sourcePoint" />
+            <mxPoint x="332.5" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6O4OJz3jVe7m3iPST7hl-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;" parent="1" source="GfVGuwTjCAqQGrBbgq1C-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-27.5" y="285" as="sourcePoint" />
+            <mxPoint x="-47.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfVGuwTjCAqQGrBbgq1C-66" value="&lt;ol&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;One-to-One (1:1):&lt;/strong&gt; Each instance of A relates to one instance of B.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;One-to-Many (1:M):&lt;/strong&gt; Each instance of A relates to multiple instances of B, but B relates to only one A.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;Many-to-Many (M:M):&lt;/strong&gt; Multiple instances of A relate to multiple instances of B.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-411.5" y="-125" width="730" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="P3f_o-Z85ZV0rGSiLPUM-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b style=&quot;mso-bidi-font-weight:normal&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;background:&lt;br/&gt;yellow;mso-highlight:yellow&quot;&gt;ERD (20 Points): &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;background:&lt;br/&gt;yellow;mso-highlight:yellow&quot;&gt;Create a well-formed entity relationship diagram&lt;br/&gt;to record operations at a veterinary office.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;In general, we need to keep track of owners, their pets, the treatments&lt;br/&gt;provided to those pets, and both the veterinarian and staff/assistants that&lt;br/&gt;took care of the pet during a visit.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;Detailed requirements are below:&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:&lt;br/&gt;Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpFirst&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;1.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;For each pet, we must record the name, birthday,&lt;br/&gt;gender, and species.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;Each pet is linked&lt;br/&gt;to a single owner as the primary point of contact for that pet (though owners&lt;br/&gt;may have many different pets).&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpMiddle&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;2.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;For owners, we record the first &amp;amp; last&lt;br/&gt;name, phone number, and email address.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;Each owner has the option to specify no more than one other individual&lt;br/&gt;that are authorized to drop off and pick up the pet from the vet (this is not&lt;br/&gt;required).&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For these other individuals,&lt;br/&gt;we capture the same information as we do for owners, so there is no need to&lt;br/&gt;create an additional entity or subtypes for these alternate contact people –&lt;br/&gt;they can simple be “owners”.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;These other&lt;br/&gt;“owners”, however, may not directly be linked to any pets – rather they are&lt;br/&gt;authorized for specific pets based on their relationship to the primary owner&lt;br/&gt;that is linked to the pet.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpMiddle&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;3.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;The database must keep track of all employees&lt;br/&gt;of the vet clinic.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;Data for all&lt;br/&gt;employees includes a Social Security Number, name, and hire date.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;Employees must be classified as either vets&lt;br/&gt;or staff and cannot be both.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For vets,&lt;br/&gt;we record their degree completion year and license expiration date.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For staff, we only record their job title.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpMiddle&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;4.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;Appointments are made to bring a pet to the&lt;br/&gt;vet clinic.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;Each appointment can be tied&lt;br/&gt;to one and only one pet.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;We must record&lt;br/&gt;the date and time for each scheduled appointment.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For simplicity, you do not need to worry&lt;br/&gt;about adding a calendar to the database with a maximum number of appointments&lt;br/&gt;per day – simply assume that when an owner needs an appointment, the vet staff&lt;br/&gt;with verify availability outside of this database and simply record the time&lt;br/&gt;and date of the appointment in this database after availability is confirmed.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpMiddle&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;5.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;The vet clinic maintains a standard set of&lt;br/&gt;treatments that it provides to pets.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For&lt;br/&gt;each of these treatments, we record the name of the treatment and its cost.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;Treatments can only be provided during&lt;br/&gt;appointments and can only be administered by vets.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;It is possible that a single appointment&lt;br/&gt;could result in multiple treatments but at least one treatment must be provided&lt;br/&gt;(e.g. a simple annual exam is still considered a treatment).&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;You can assume that for any individual&lt;br/&gt;appointment, only vet will be administering treatmentsAny time a treatment is&lt;br/&gt;provided during a visit, the structure of the database must allow us to see&lt;br/&gt;which pet received the treatment, which appointment it was administered during,&lt;br/&gt;and which vet administered the treatment.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;text-indent:-.25in;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpLast&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin&quot;&gt;&lt;span style=&quot;mso-list:Ignore&quot;&gt;6.&lt;span style=&quot;font:7.0pt &amp;quot;Times New Roman&amp;quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-bidi-theme-font:minor-latin&quot;&gt;Staff members also often interact with pets&lt;br/&gt;during their appointments.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;For example,&lt;br/&gt;a front desk worker may process the payment for treatments or a vet technician&lt;br/&gt;may process the initial intake of the pet and gather information on the pet’s&lt;br/&gt;vital signs before handing over this information to the vet.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;As such, the database must record each staff&lt;br/&gt;member that interacted with the pet during the appointment and record a brief&lt;br/&gt;description of that interaction (e.g. “processed payment”, “took vital signs”,&lt;br/&gt;etc.) &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;These descriptions would be&lt;br/&gt;entered as general text fields into the database and it is not necessary to set&lt;br/&gt;up an alternate entity to keep track of a standardized list of possible&lt;br/&gt;interactions.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-bidi-font-family:Calibri;mso-bidi-theme-font:&lt;br/&gt;minor-latin&quot;&gt;Using this information, create a well-formed ERD that uses all&lt;br/&gt;appropriate symbols as taught in class.&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" width="730" height="1130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-2" id="D4u59HYSkVQKdSaR0bPl">
+    <mxGraphModel dx="2830" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-0" />
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-1" parent="KhLzu_lOnlAHW_NJOM08-0" />
+        <mxCell id="q_hHtGlUzUFtb7MjenmT-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-240" y="90" width="510" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;startArrow=ERmany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-3" value="Customer" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="220" y="615" width="122.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-4" value="Full Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="122.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-5" value="Email Address" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="232.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-6" value="Zip Code" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="342.5" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-4" target="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.5" y="710" as="sourcePoint" />
+            <mxPoint x="782.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-5" target="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.5" y="720" as="sourcePoint" />
+            <mxPoint x="277.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-6" target="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302.5" y="720" as="sourcePoint" />
+            <mxPoint x="302.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-10" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-27" target="KhLzu_lOnlAHW_NJOM08-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="467.5" y="640" as="sourcePoint" />
+            <mxPoint x="670" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-11" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="630" y="400" width="365" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-12" value="&lt;font style=&quot;color: rgb(212, 196, 74);&quot;&gt;Product Order&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="12.5" y="215" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-13" value="Product" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="10" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-14" value="Includes" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="5" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-12" target="KhLzu_lOnlAHW_NJOM08-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="239.5" as="sourcePoint" />
+            <mxPoint x="265" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-16" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-14" target="KhLzu_lOnlAHW_NJOM08-13">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="85" y="450" as="sourcePoint" />
+            <mxPoint x="185" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-17" value="Product Name" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#0000FF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="15" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-18" value="MSRP" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#0000FF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="125" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-35" y="560" as="sourcePoint" />
+            <mxPoint x="65" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="560" as="sourcePoint" />
+            <mxPoint x="90" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-17" target="KhLzu_lOnlAHW_NJOM08-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-22" value="&lt;u&gt;Order ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="160" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-22" target="KhLzu_lOnlAHW_NJOM08-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-213" y="100" as="sourcePoint" />
+            <mxPoint x="120" y="103" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-24" value="Quantity of Products" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-11">
+          <mxGeometry x="162" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-11" source="KhLzu_lOnlAHW_NJOM08-24" target="KhLzu_lOnlAHW_NJOM08-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-211" y="150" as="sourcePoint" />
+            <mxPoint x="120" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-26" value="" style="fontSize=12;html=1;endArrow=none;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" target="KhLzu_lOnlAHW_NJOM08-27">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="467.5" y="640" as="sourcePoint" />
+            <mxPoint x="722.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-27" value="Places" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#FF8000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="447.5" y="600" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-28" value="CustomersSelected" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#009900;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="420" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-29" value="&lt;u&gt;Promo Code&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="640" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERzeroToOne;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-28" target="KhLzu_lOnlAHW_NJOM08-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="204.58" as="sourcePoint" />
+            <mxPoint x="680" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToOne;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-63" target="KhLzu_lOnlAHW_NJOM08-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-32" value="d" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="680" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-32" target="KhLzu_lOnlAHW_NJOM08-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="120" as="sourcePoint" />
+            <mxPoint x="694.58" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-34" value="Individual &lt;br&gt;Promo Code" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="560" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-35" value="Standard &lt;br&gt;Promo Code" style="whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="720" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-36" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="550" y="180" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-37" value="" style="group" vertex="1" connectable="0" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-37" source="KhLzu_lOnlAHW_NJOM08-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-75" y="105" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
             <Array as="points">
-              <mxPoint x="627" y="635" />
-              <mxPoint x="677" y="635" />
+              <mxPoint />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-7" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Braking&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="547" y="655" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=circlePlus;endFill=0;jettySize=auto;orthogonalLoop=1;entryX=0.5;entryY=1;" parent="1" source="1672d66443f91eb5-8" target="1672d66443f91eb5-5" edge="1">
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-37" source="KhLzu_lOnlAHW_NJOM08-34" target="KhLzu_lOnlAHW_NJOM08-32">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="30.000000000000014" as="sourcePoint" />
+            <mxPoint x="195" y="30.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-40" value="" style="group" vertex="1" connectable="0" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="660" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-41" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="50" as="sourcePoint" />
+            <mxPoint x="740" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="817" y="635" />
-              <mxPoint x="717" y="635" />
+              <mxPoint x="740" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-8" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;FuelEconomy&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="737" y="655" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=circlePlus;endFill=0;jettySize=auto;orthogonalLoop=1;entryX=0.75;entryY=1;" parent="1" source="1672d66443f91eb5-9" target="1672d66443f91eb5-5" edge="1">
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-32" target="KhLzu_lOnlAHW_NJOM08-35">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1017" y="625" />
-              <mxPoint x="757" y="625" />
-            </Array>
+            <mxPoint x="715" y="120.00000000000001" as="sourcePoint" />
+            <mxPoint x="855" y="120.42" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-22" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" source="1672d66443f91eb5-9" target="1672d66443f91eb5-3" edge="1">
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-47" target="KhLzu_lOnlAHW_NJOM08-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-44" value="Promotion Description" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="830" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-29" target="KhLzu_lOnlAHW_NJOM08-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="220" as="sourcePoint" />
+            <mxPoint x="830" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-46" value="Promotion Type" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="825" y="125" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-47" value="Expiration Date" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#990000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="825" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-29" target="KhLzu_lOnlAHW_NJOM08-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="184.31" as="sourcePoint" />
+            <mxPoint x="840" y="184.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;startArrow=ERzeroToMany;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" target="KhLzu_lOnlAHW_NJOM08-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-17.5" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-50" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;endFill=0;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-51" target="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="12.5" y="640" as="sourcePoint" />
+            <mxPoint x="222.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-51" value="ChosetoOpt" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="70" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;endArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-53" target="KhLzu_lOnlAHW_NJOM08-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-53" value="Marketing Email Campaigns" style="whiteSpace=wrap;html=1;align=center;fontColor=#FF3399;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-70" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-54" value="Order Date" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#FF8000;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="462.5" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-56" value="&lt;u&gt;Product ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="530" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-57" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-56" target="KhLzu_lOnlAHW_NJOM08-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-58" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; white-space-collapse: preserve; font-size: medium; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Instructions - Draw a well-formed ER diagram for the following situation: &lt;/span&gt;&lt;/h1&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;An online retailer wants to keep better records of their email marketing campaigns, promo codes (for discounts) sent to customers, the products that were purchased, and whether promo codes were applied to orders. In general, the database must track data relating to customers, emails, promo codes, orders, and products. Design an ERD that incorporates the following requirements:&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- For each product we sell, we need to &lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;record the product name and MSRP&lt;/font&gt; (suggested retail price). This database will not serve as an inventory management system, so there is no need to figure out how to keep track of whether the products are currently in stock. You can think of products in this database as just a catalog of possible products customers can purchase.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- For customers, we need to collect their&lt;font style=&quot;color: rgb(255, 51, 153);&quot;&gt; full name, zip code, email address,&lt;/font&gt; and whether they have &lt;font style=&quot;color: rgb(255, 51, 153);&quot;&gt;opted out of marketing email campaigns.&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- The company often sends the &lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt;same email message to many customers&lt;/font&gt; at one time. The text of these emails must be stored in the database in case the same email text will be reused or&lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt; resent to a different population of users at a later date.&lt;/font&gt; As such, each email message sent to customers must be &lt;font style=&quot;color: rgb(75, 125, 116);&quot;&gt;given a unique ID and record the full text &lt;/font&gt;included in that email.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- When an email message is sent out, we need to record &lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;which customers were sent that particular email message.&lt;/font&gt; The&lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt; date/time for sending the email&lt;/font&gt; to a customer must be recorded in the database.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Promo codes are ways of giving customers various types of discounts ($10 off entire order, 10% off a single item, etc.) In some cases, the company generates &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;unique promo codes&lt;/font&gt; that would be sent to &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;individual customers&lt;/font&gt; but in other cases, a &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;standard promo code&lt;/font&gt; is provided to&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt; many customers at once.&lt;/font&gt; As such, for each promo code that is generated, we need to store the actual promo code (which can &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;serve as the unique identifier,&lt;/font&gt; since each code will be unique), a &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;description &lt;/font&gt;of the promotion, its &lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;type&lt;/font&gt; (percent discount vs. dollar amount discount), and an&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt; &lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; background-color: transparent; font-family: Arial, sans-serif; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;expiration date.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;Promo codes are inserted into emails&lt;/font&gt; &lt;/font&gt;that are &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;sent to customers.&lt;/font&gt; In some cases, all customers who receive a marketing email will receive the same exact promo code. But in other cases, different promo codes may be provided to different customers, even if the text of the email is the same. An email to a customer will &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;never contain more than one promo code&lt;/font&gt;, but some emails sent to customers will contain &lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;no promo code at all.&lt;/font&gt; (hint, the promo code is not included in the text of the email message that is stored in the database. Promo codes must be linked to other areas of the database&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt; through a relationship)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Customers can&lt;font style=&quot;color: rgb(204, 102, 0);&quot;&gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;place orders&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 102, 0);&quot;&gt; &lt;/font&gt;and we must record the &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;order date and the total amount paid &lt;/font&gt;for the order (sum of all prices charged for products plus tax and shipping fees). An order can simply be&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt; one product,&lt;/font&gt; but customers can also &lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;purchase multiple products at one time&lt;/font&gt; and they are all combined into a single order.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- When a customer buys a product as part of an order, we need the ability to record the&lt;font style=&quot;color: rgb(212, 196, 74);&quot;&gt; &lt;font style=&quot;color: rgb(214, 201, 54);&quot;&gt;actual amount charged to the customer for that product.&lt;/font&gt;&lt;font style=&quot;color: rgb(153, 153, 0);&quot;&gt; &lt;/font&gt;&lt;/font&gt;This may be different from the MSRP because of a sale or the use of a promo code.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- A customer can apply no more than one promo code to an order, but does not need to use a promo code to make an order. Recording the promo code used for an order would allow the company to run analytics on the types and volume of products purchased when using different types of promo codes.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="1060" y="-90" width="730" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-59" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Total Amount Paid for Order&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="475" y="320" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-60" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" target="KhLzu_lOnlAHW_NJOM08-67">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="550" y="435" as="sourcePoint" />
+            <mxPoint x="620" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-61" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" target="KhLzu_lOnlAHW_NJOM08-62">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="sourcePoint" />
+            <mxPoint x="643" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-62" value="Final Shipment/Invoice" style="whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="480" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-63" value="Applies" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="635" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-64" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-66" target="KhLzu_lOnlAHW_NJOM08-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="915" y="580" as="sourcePoint" />
+            <mxPoint x="480" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-3" target="KhLzu_lOnlAHW_NJOM08-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="615" as="sourcePoint" />
+            <mxPoint x="545" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-66" value="IsSent" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="280" y="405" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-67" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="630" y="400" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-68" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Order Invoice&lt;/font&gt;" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-67">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-67" source="KhLzu_lOnlAHW_NJOM08-70" target="KhLzu_lOnlAHW_NJOM08-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.99999999998454" y="7.5" as="sourcePoint" />
+            <mxPoint x="140" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-70" value="Sum of all Products" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-67">
+          <mxGeometry x="200" y="10" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-71" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-68" target="KhLzu_lOnlAHW_NJOM08-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="600" as="sourcePoint" />
+            <mxPoint x="760" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERzeroToMany;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-68" target="KhLzu_lOnlAHW_NJOM08-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="400" as="sourcePoint" />
+            <mxPoint x="730" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-62" target="KhLzu_lOnlAHW_NJOM08-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="370" as="sourcePoint" />
+            <mxPoint x="535" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-75" target="KhLzu_lOnlAHW_NJOM08-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.9999999999845" y="347.5" as="sourcePoint" />
+            <mxPoint x="760" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-75" value="Price After Discount&amp;nbsp;&lt;br&gt;(o)&lt;br&gt;Subtotal" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="830" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-76" value="Taxes + Shipping Fees" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="830" y="470" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-76" target="KhLzu_lOnlAHW_NJOM08-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="385" as="sourcePoint" />
+            <mxPoint x="770" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-78" value="Targeted Marketing Roster" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="163.5" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-79" value="Emails" style="whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-16.5" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-80" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmany;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-79" target="KhLzu_lOnlAHW_NJOM08-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="23.08000000000004" y="240" as="sourcePoint" />
+            <mxPoint x="23.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-17.5" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-82" value="Text Templates" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-187.5" y="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-83" value="Email Unique ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#4B7D74;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-187.5" y="165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-84" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-83" target="KhLzu_lOnlAHW_NJOM08-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-77.5" y="250" as="sourcePoint" />
+            <mxPoint x="-17.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-85" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-78" target="KhLzu_lOnlAHW_NJOM08-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.5" y="240" as="sourcePoint" />
+            <mxPoint x="232.5" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-86" value="IsSent" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#6600CC;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="184" y="270" width="99" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-87" value="&lt;u&gt;Date/Time &lt;br&gt;Email Sent&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;fontColor=#6600CC;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="62.5" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-87" target="KhLzu_lOnlAHW_NJOM08-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1672d66443f91eb5-9" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Acceleration&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="937" y="655" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=circlePlus;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" source="1672d66443f91eb5-10" target="1672d66443f91eb5-4" edge="1">
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;startArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-78" target="KhLzu_lOnlAHW_NJOM08-28">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="477" y="755" />
-              <mxPoint x="477" y="755" />
-            </Array>
+            <mxPoint x="282.5" y="209.58" as="sourcePoint" />
+            <mxPoint x="430" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Emissions&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;R1.1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text=&quot;The vehicle shall meet UltraLow Emissions Vehicle standards.&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="427" y="785" width="290" height="120" as="geometry" />
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;startFill=0;entryX=0.106;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToMany;entryPerimeter=0;" edge="1" parent="KhLzu_lOnlAHW_NJOM08-1" source="KhLzu_lOnlAHW_NJOM08-86" target="KhLzu_lOnlAHW_NJOM08-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.5" y="285" as="sourcePoint" />
+            <mxPoint x="232.5" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-19" style="rounded=0;html=1;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;dashed=1;" parent="1" source="1672d66443f91eb5-11" target="1672d66443f91eb5-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KhLzu_lOnlAHW_NJOM08-91" value="&lt;ol&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;One-to-One (1:1):&lt;/strong&gt; Each instance of A relates to one instance of B.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;One-to-Many (1:M):&lt;/strong&gt; Each instance of A relates to multiple instances of B, but B relates to only one A.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;strong&gt;Many-to-Many (M:M):&lt;/strong&gt; Multiple instances of A relate to multiple instances of B.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-411.5" y="-125" width="730" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="1672d66443f91eb5-11" value="&lt;b&gt;VerifiedBy&lt;/b&gt;&lt;div&gt;&amp;lt;&amp;lt;testCase&amp;gt;&amp;gt; MaxAcceleration&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="832" y="825" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-20" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" source="1672d66443f91eb5-12" target="1672d66443f91eb5-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-12" value="&lt;b&gt;SatisfiedBy&lt;/b&gt;&lt;div&gt;&amp;lt;&amp;lt;block&amp;gt;&amp;gt; PowerSubsystem&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1082" y="825" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1672d66443f91eb5-23" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
+        <mxCell id="q_hHtGlUzUFtb7MjenmT-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;I can&#39;t decide if this section needs to be connected to the customer or connected to the Marketing Email Campaigns that Customers opt in to - so they CAN receive Marketing emails&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KhLzu_lOnlAHW_NJOM08-1">
+          <mxGeometry x="-210" y="340" width="380" height="225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
